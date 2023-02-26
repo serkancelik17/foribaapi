@@ -1,17 +1,17 @@
 {
-  "name": "unlembilisim/foribaapi",
+  "name": "serkancelik17/foribaapi",
   "description": "Fit solutions efatura api..",
   "keywords" : ["efatura", "earsiv","api", "foriba"],
   "authors": [
     {
-      "name": "Orhan Gazi Başlı",
-      "email": "obasli@unlembilisim.com",
-      "homepage": "http://unlembilisim.com/"
+      "name": "Serkan Çelik",
+      "email": "syaramaz@gmail.com",
+      "homepage": "http://serkancelik.web.tr/"
     }
   ],
   "require": {
     "php": ">=7.0.0",
-    "guzzlehttp/guzzle": "^7.0.1"
+    "guzzlehttp/guzzle": "^6.5.8"
   },
   "autoload": {
     "psr-4": {

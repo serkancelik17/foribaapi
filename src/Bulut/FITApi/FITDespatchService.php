@@ -251,7 +251,7 @@ class FITDespatchService {
         ]);
         $body = $response->getBody()->getContents();
         dump($body);
-        logger($body);
+        //logger($body);
 
         $this->lastResponse = $body;
         return $body;

@@ -238,7 +238,7 @@ class FITDespatchService {
         unset($get_variables['methodName']);
         unset($get_variables['soapAction']);
         $xmlMake = $this->makeXml($methodName, $get_variables);
-        dump($xmlMake);
+        //dump($xmlMake);
         //logger($xmlMake);
         $this->lastRequest = $xmlMake;
         $this->headers['SOAPAction'] = $soapAction;
@@ -250,7 +250,7 @@ class FITDespatchService {
             'verify' => false
         ]);
         $body = $response->getBody()->getContents();
-        dump($body);
+        //dump($body);
         //logger($body);
 
         $this->lastResponse = $body;
